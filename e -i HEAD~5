@@ -1,0 +1,63 @@
+[33mcommit 3e6b10daffacc617452f8b6fc7bc30e76437d337[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: dilipkumar104 <dilip104td@gmail.com>
+Date:   Sat Sep 26 22:27:28 2026 +0530
+
+    docs: add comprehensive studySIH.md learning guide for SIH 26170
+    
+    - Complete study guide covering all project concepts
+    - 13 sections: Overview, Problem Statement, Core Technologies, 5 Modules
+    - Mathematical deep-dive: Z-scores, MAD, Arrhenius, Coffin-Manson, Risk Scoring
+    - 12 real case studies with component examples (C742, C883, C201)
+    - 15 interview prep questions with detailed answers
+    - Implementation walkthrough with code examples
+    - Technology stack explanation (React, TypeScript, MQTT, OPC-UA)
+    - 5-week learning path for self-study
+    - Interview strategies and design questions
+    - Supplementary resources and practice projects
+    
+
+[33mcommit cb356dc5b3606faa80c4c0646cb9b57c7b775c67[m
+Author: dilipkumar104 <dilip104td@gmail.com>
+Date:   Sat Sep 26 22:22:44 2026 +0530
+
+    docs: rewrite README to showcase SIH-winning platform with PINNs, TabPFN, and Live ATE
+    
+    - Highlight three advanced AI technologies (PINNs, TabPFN, Live ATE)
+    - Add technical architecture diagram and mathematical models
+    - Showcase mission-critical impact and use cases (ISRO, Defense, Aerospace)
+    - Add new dashboard routes (/physics, /classification, /live-ate)
+    - Emphasize production-ready status and regulatory compliance
+    - Include quick demo walkthrough and implementation statistics
+    - Reposition as next-gen semiconductor screening platform
+    - Add winning tagline and academic/industrial impact
+    
+
+[33mcommit 25ca21be8e137b9253d791c4b2a921bd942cda2a[m
+Author: dilipkumar104 <dilip104td@gmail.com>
+Date:   Sat Sep 26 22:14:17 2026 +0530
+
+    feat: implement all three roadmap items - PINNs, TabPFN classification, and Live ATE integration
+    
+    - Implement Physics-Informed Neural Networks (PINNs) with Arrhenius thermal acceleration and Coffin-Manson fatigue models for degradation trajectory prediction
+    - Add physics-analysis page (/physics/:componentId) with 95% confidence intervals and failure risk visualization
+    - Implement TabPFN zero-shot classifier with 30+ engineered features for component health categorization (healthy/degrading/critical)
+    - Add component-classification page (/classification) with failure mode detection and outlier identification
+    - Implement Live ATE Integration supporting both MQTT and OPC-UA protocols for real-time test equipment data streaming
+    - Add live-ate page (/live-ate) with session management, equipment status monitoring, and real-time measurement feeds
+    - Extend Component type with PINNMetrics for physics-informed predictions
+    - Add comprehensive feature extraction for semiconductor parameter analysis (Leakage, Iddq, Tpd, Vth, Ron)
+    - Implement multi-parameter correlation analysis for coupled failure mode detection
+    - Create ROADMAP_IMPLEMENTATION.md documenting all implementations
+    
+
+[33mcommit 280d6391ef0296d02643c8781ae74069f321a236[m
+Author: dilipkumar104 <dilip104td@gmail.com>
+Date:   Sat Sep 26 21:49:30 2026 +0530
+
+    docs: rewrite README with math architecture & add 10k dataset pipeline and project assets
+
+[33mcommit a16bb50996089880042c0877be3cd5230ec819e8[m
+Author: dilipkumar104 <dilip104td@gmail.com>
+Date:   Sat Sep 26 20:28:49 2026 +0530
+
+    Add core web application source files and configuration
